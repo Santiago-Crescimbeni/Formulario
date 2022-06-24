@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Poppins:ital,wght@1,300&family=Roboto:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.verde {
+    background-color: #1CD1B0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head1 {
+    background-color: #00669F;
+}
+
+.ConRegIng {
+    display: inline-flex;
+    color: white;
+    font-size: large;
+    align-items: center;
+    padding-top: .8em;
+}
+
+.claseListas ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list1 {
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.list1 li {
+    display: inline;
+    padding-left: 8px;
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .contenidoGral {
+    position: relative;
+    background-color: #00669F;
+    border-radius: 4%;
+    width: 800px;
+    height: 680px;
+}
+
+.TituloForm h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.TituloForm p {
+    position: relative;
+    left: 25%;
+    color: white;
+}
+
+.contenidoDeForm {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.formulario {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    width: min-content;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    color: white;
+}
+
+.formulario input {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.formulario textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.selecciones {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.selecciones label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    color: white;
+}
+
+.selecciones select {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inpuFile {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inpuFile input {
+    border: white;
+}
+
+.selecciones ul {
+    color: white;
+    list-style: none;
+}
+
+hr {
+    width: 300px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    background-color: #00669F;
+    padding: 3%;
+    color: white;
+}
+
+.bot {
+    background-color: #1CD1B0;
+    position: absolute;
+    border-radius: 15px;
+    left: 25%;
+    top: 580px;
+    padding: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bold;
+    font-size: xx-large;
+}

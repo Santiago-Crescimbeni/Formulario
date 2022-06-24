@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../proyecto formulario/formulario.css">
+    <script src="https://kit.fontawesome.com/2c564250c6.js" crossorigin="anonymous"></script>
+
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="verde">
+            <span>20% Descuento en todos los productos</span>
+        </section>
+        <section class="head1">
+            <div class="ConRegIng">
+                <img src="img/Logo.png" alt="#">
+                <h3>NOMBRE DE LA TIENDA </h3>
+            </div>
+            <div class="claseListas">
+                <ul class="list1">
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <div class="contenidoGral">
+            <div class="TituloForm">
+                <h1>Añadí Tu Super</h1>
+                <p>Agrega tu personaje favorito completando las opciones</p>
+            </div>
+            <div class="contenidoDeForm">
+                <div>
+                    <form action="#" method="post" class="formulario">
+                        <label for="Nombre"> NOMBRE</label>
+                        <input type="text" name="Nombre">
+                        <label for="FECHA">FECHA</label>
+                        <input type="date" name="Fecha">
+                        <label for="comentario"></label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10">Comentario </textarea>
+                    </form>
+                </div>
+                <div class="selecciones">
+                    <label for="ESPECIE">ESPECIE</label>
+                    <select name="ESPECIE" id="#">
+            <option value="#"></option>
+        </select>
+                    <div class="cargarArchivo">
+                        <label for="archivo">AGREGAR FOTO</label>
+                        <button class="inpuFile"><input type="file" name="archivo" accept="jpg" multiple></button>
+                    </div>
+
+                    <ul>PODERES
+                        <li><input type="checkbox">Volar</li>
+                        <li><input type="checkbox">Superinteligencia</li>
+                        <li><input type="checkbox">Vistaderayolaser</li>
+                        <li><input type="checkbox">Billeteragorda</li>
+                    </ul>
+                    <hr>
+                    <ul> TIPO DE PERSONAJE
+                        <li><input type="radio" name="tipo"> Heroe/Heroina</li>
+                        <li>
+                            <input type="radio" name="tipo">Villano/Villana</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            <input class="bot" type="button" name="Añadir" value="Añadir">
+
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Santiago Crescimbeni </p>
+        <a href="https://github.com/Santiago-Crescimbeni/Formulario.git"><i class="fa-brands fa-github"></i></a>
+    </footer>
+
+</body>
+
+</html>
